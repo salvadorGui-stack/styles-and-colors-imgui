@@ -39,19 +39,3 @@
 | `ImGuiStyleVar_ItemSpacing` | Расстояние между элементами | `ImVec2(8, 4)` |
 | `ImGuiStyleVar_GrabMinSize` | Размер ползунка слайдера | `10.0f` |
 | `ImGuiStyleVar_Alpha` | Общая прозрачность окна | `0.0f - 1.0f` |
-
----
-
-### 💡 Пример использования в коде
-
-```cpp
-// Делаем закругленные кнопки и меняем их цвет на красный
-ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(1.0f, 0.0f, 0.0f, 1.0f));
-ImGui::PushStyleVar(ImGuiStyleVar_FrameRounding, 5.0f);
-
-if (ImGui::Button("SALVADOR", ImVec2(120, 40))) {
-    // Действие
-}
-
-ImGui::PopStyleVar();
-ImGui::PopStyleColor();
