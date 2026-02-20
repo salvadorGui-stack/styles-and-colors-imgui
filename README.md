@@ -39,3 +39,5 @@
 | `ImGuiStyleVar_ItemSpacing` | Расстояние между элементами | `ImVec2(8, 4)` |
 | `ImGuiStyleVar_GrabMinSize` | Размер ползунка слайдера | `10.0f` |
 | `ImGuiStyleVar_Alpha` | Общая прозрачность окна | `0.0f - 1.0f` |
+
+---
